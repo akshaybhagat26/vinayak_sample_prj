@@ -66,7 +66,7 @@ class TransactionCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '\₹${transaction.transactionAmount.toStringAsFixed(2)}',
+                  '₹${transaction.transactionAmount.toStringAsFixed(2)}',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 18,

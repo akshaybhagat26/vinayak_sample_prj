@@ -38,7 +38,7 @@ class MoneyTransfers extends StatelessWidget {
                           ],
                         ),
                         Text(
-                          '\₹${totalSpent.toStringAsFixed(2)}',
+                          '₹${totalSpent.toStringAsFixed(2)}',
                           style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
@@ -62,7 +62,7 @@ class MoneyTransfers extends StatelessWidget {
                           ],
                         ),
                         Text(
-                          '\₹${totalReceived.toStringAsFixed(2)}',
+                          '₹${totalReceived.toStringAsFixed(2)}',
                           style: const TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,

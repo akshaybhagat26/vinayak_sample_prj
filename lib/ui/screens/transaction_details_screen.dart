@@ -52,7 +52,7 @@ class TransactionDetails extends ConsumerWidget {
                         children: [
                          
                           Text(
-                            '\₹$totalExpense',
+                            '₹$totalExpense',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 28,
@@ -60,7 +60,7 @@ class TransactionDetails extends ConsumerWidget {
                             ),
                           ),
                           Text(
-                            '\₹$monthlyBalance',
+                            '₹$monthlyBalance',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 28,

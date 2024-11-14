@@ -51,7 +51,7 @@ class _AddTransactionScreenState extends ConsumerState<AddTransactionScreen> {
       await ref.read(transactionNotifierProvider.notifier).addTransaction(newTransaction);
 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('${_transactionType} added successfully!')),
+        SnackBar(content: Text('$_transactionType added successfully!')),
       );
 
       Navigator.of(context).pop(); 
